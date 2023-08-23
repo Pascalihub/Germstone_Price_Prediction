@@ -1,0 +1,87 @@
+Requirement already satisfied: asyncssh in c:\users\pascal\appdata\roaming\python\python39\site-packages (2.13.2)
+Collecting vine==5.0.0
+  Using cached vine-5.0.0-py2.py3-none-any.whl (9.4 kB)
+Collecting aiohttp
+  Obtaining dependency information for aiohttp from https://files.pythonhosted.org/packages/c2/7c/66aff492b444f0d089bd74ffcb7346ebc3521ba68c77ac5479a2b947091c/aiohttp-3.8.5-cp39-cp39-win_amd64.whl.metadata
+  Using cached aiohttp-3.8.5-cp39-cp39-win_amd64.whl.metadata (8.0 kB)
+Collecting huggingface-hub==0.11.0
+  Downloading huggingface_hub-0.11.0-py3-none-any.whl (182 kB)
+     ------------------------------------ 182.1/182.1 kB 458.2 kB/s eta 0:00:00
+Collecting multiprocess
+  Obtaining dependency information for multiprocess from https://files.pythonhosted.org/packages/c6/c9/820b5ab056f4ada76fbe05bd481a948f287957d6cbfd59e2dd2618b408c1/multiprocess-0.70.15-py39-none-any.whl.metadata
+  Downloading multiprocess-0.70.15-py39-none-any.whl.metadata (7.2 kB)
+Collecting pyarrow
+  Obtaining dependency information for pyarrow from https://files.pythonhosted.org/packages/dc/45/31441c988329afed625a791a7d78f1cf2fcb40dcc86a1d61e081287516a8/pyarrow-12.0.1-cp39-cp39-win_amd64.whl.metadata
+  Downloading pyarrow-12.0.1-cp39-cp39-win_amd64.whl.metadata (3.1 kB)
+Collecting pyyaml
+  Obtaining dependency information for pyyaml from https://files.pythonhosted.org/packages/84/4d/82704d1ab9290b03da94e6425f5e87396b999fd7eb8e08f3a92c158402bf/PyYAML-6.0.1-cp39-cp39-win_amd64.whl.metadata
+  Using cached PyYAML-6.0.1-cp39-cp39-win_amd64.whl.metadata (2.1 kB)
+Collecting requests
+  Obtaining dependency information for requests from https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl.metadata
+  Using cached requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting xxhash
+  Obtaining dependency information for xxhash from https://files.pythonhosted.org/packages/30/25/ae5ede30b61e78d98cc0be2e94ad8a942ced11eafba0c2d2efe0db7647aa/xxhash-3.3.0-cp39-cp39-win_amd64.whl.metadata
+  Downloading xxhash-3.3.0-cp39-cp39-win_amd64.whl.metadata (12 kB)
+Collecting filelock (from huggingface-hub==0.11.0)
+  Obtaining dependency information for filelock from https://files.pythonhosted.org/packages/00/45/ec3407adf6f6b5bf867a4462b2b0af27597a26bd3cd6e2534cb6ab029938/filelock-3.12.2-py3-none-any.whl.metadata
+  Using cached filelock-3.12.2-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: tqdm in c:\users\pascal\anaconda3\envs\germ\lib\site-packages (from huggingface-hub==0.11.0) (4.66.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\pascal\anaconda3\envs\germ\lib\site-packages (from huggingface-hub==0.11.0) (4.7.1)
+Requirement already satisfied: packaging>=20.9 in c:\users\pascal\anaconda3\envs\germ\lib\site-packages (from huggingface-hub==0.11.0) (23.1)
+Collecting cryptography>=3.1 (from asyncssh)
+  Obtaining dependency information for cryptography>=3.1 from https://files.pythonhosted.org/packages/30/56/5f4eee57ccd577c261b516bfcbe17492838e2bc4e2e92ea93bbb57666fbd/cryptography-41.0.3-cp37-abi3-win_amd64.whl.metadata
+  Using cached cryptography-41.0.3-cp37-abi3-win_amd64.whl.metadata (5.3 kB)
+Collecting attrs>=17.3.0 (from aiohttp)
+  Using cached attrs-23.1.0-py3-none-any.whl (61 kB)
+Collecting charset-normalizer<4.0,>=2.0 (from aiohttp)
+  Obtaining dependency information for charset-normalizer<4.0,>=2.0 from https://files.pythonhosted.org/packages/cb/dd/dce14328e6abe0f475e606131298b4c8f628abd62a4e6f27fdfa496b9efe/charset_normalizer-3.2.0-cp39-cp39-win_amd64.whl.metadata
+  Using cached charset_normalizer-3.2.0-cp39-cp39-win_amd64.whl.metadata (31 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp)
+  Using cached multidict-6.0.4-cp39-cp39-win_amd64.whl (28 kB)
+Collecting async-timeout<5.0,>=4.0.0a3 (from aiohttp)
+  Obtaining dependency information for async-timeout<5.0,>=4.0.0a3 from https://files.pythonhosted.org/packages/a7/fa/e01228c2938de91d47b307831c62ab9e4001e747789d0b05baf779a6488c/async_timeout-4.0.3-py3-none-any.whl.metadata
+  Downloading async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+Collecting yarl<2.0,>=1.0 (from aiohttp)
+  Using cached yarl-1.9.2-cp39-cp39-win_amd64.whl (61 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp)
+  Obtaining dependency information for frozenlist>=1.1.1 from https://files.pythonhosted.org/packages/f9/16/ef36f5b20ee10dba86d4b5223d55b416e97dfa2dbf5546f0c6d9aa8a26ba/frozenlist-1.4.0-cp39-cp39-win_amd64.whl.metadata
+  Using cached frozenlist-1.4.0-cp39-cp39-win_amd64.whl.metadata (5.3 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp)
+  Using cached aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Requirement already satisfied: dill>=0.3.7 in c:\users\pascal\anaconda3\envs\germ\lib\site-packages (from multiprocess) (0.3.7)
+Requirement already satisfied: numpy>=1.16.6 in c:\users\pascal\anaconda3\envs\germ\lib\site-packages (from pyarrow) (1.25.2)
+Collecting idna<4,>=2.5 (from requests)
+  Using cached idna-3.4-py3-none-any.whl (61 kB)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Obtaining dependency information for urllib3<3,>=1.21.1 from https://files.pythonhosted.org/packages/9b/81/62fd61001fa4b9d0df6e31d47ff49cfa9de4af03adecf339c7bc30656b37/urllib3-2.0.4-py3-none-any.whl.metadata
+  Using cached urllib3-2.0.4-py3-none-any.whl.metadata (6.6 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Obtaining dependency information for certifi>=2017.4.17 from https://files.pythonhosted.org/packages/4c/dd/2234eab22353ffc7d94e8d13177aaa050113286e93e7b40eae01fbf7c3d9/certifi-2023.7.22-py3-none-any.whl.metadata
+  Using cached certifi-2023.7.22-py3-none-any.whl.metadata (2.2 kB)
+Collecting cffi>=1.12 (from cryptography>=3.1->asyncssh)
+  Using cached cffi-1.15.1-cp39-cp39-win_amd64.whl (179 kB)
+Requirement already satisfied: colorama in c:\users\pascal\anaconda3\envs\germ\lib\site-packages (from tqdm->huggingface-hub==0.11.0) (0.4.6)
+Collecting pycparser (from cffi>=1.12->cryptography>=3.1->asyncssh)
+  Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Downloading aiohttp-3.8.5-cp39-cp39-win_amd64.whl (327 kB)
+   -------------------------------------- 327.1/327.1 kB 699.4 kB/s eta 0:00:00
+Downloading multiprocess-0.70.15-py39-none-any.whl (133 kB)
+   -------------------------------------- 133.3/133.3 kB 715.7 kB/s eta 0:00:00
+Downloading pyarrow-12.0.1-cp39-cp39-win_amd64.whl (21.5 MB)
+   ---------------------------------------- 21.5/21.5 MB 1.5 MB/s eta 0:00:00
+Downloading PyYAML-6.0.1-cp39-cp39-win_amd64.whl (152 kB)
+   -------------------------------------- 152.8/152.8 kB 132.2 kB/s eta 0:00:00
+Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+Downloading xxhash-3.3.0-cp39-cp39-win_amd64.whl (29 kB)
+Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Using cached certifi-2023.7.22-py3-none-any.whl (158 kB)
+Using cached charset_normalizer-3.2.0-cp39-cp39-win_amd64.whl (96 kB)
+Downloading cryptography-41.0.3-cp37-abi3-win_amd64.whl (2.6 MB)
+   ---------------------------------------- 2.6/2.6 MB 1.1 MB/s eta 0:00:00
+Downloading frozenlist-1.4.0-cp39-cp39-win_amd64.whl (44 kB)
+   ---------------------------------------- 44.7/44.7 kB 366.1 kB/s eta 0:00:00
+Downloading urllib3-2.0.4-py3-none-any.whl (123 kB)
+   -------------------------------------- 123.9/123.9 kB 806.2 kB/s eta 0:00:00
+Using cached filelock-3.12.2-py3-none-any.whl (10 kB)
+Installing collected packages: xxhash, vine, urllib3, pyyaml, pycparser, pyarrow, multiprocess, multidict, idna, frozenlist, filelock, charset-normalizer, certifi, attrs, async-timeout, yarl, requests, cffi, aiosignal, huggingface-hub, cryptography, aiohttp
+Successfully installed aiohttp-3.8.5 aiosignal-1.3.1 async-timeout-4.0.3 attrs-23.1.0 certifi-2023.7.22 cffi-1.15.1 charset-normalizer-3.2.0 cryptography-41.0.3 filelock-3.12.2 frozenlist-1.4.0 huggingface-hub-0.11.0 idna-3.4 multidict-6.0.4 multiprocess-0.70.15 pyarrow-12.0.1 pycparser-2.21 pyyaml-6.0.1 requests-2.31.0 urllib3-2.0.4 vine-5.0.0 xxhash-3.3.0 yarl-1.9.2
